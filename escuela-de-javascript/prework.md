@@ -34,5 +34,40 @@ Eso desinstalará Hyper pero algunas dependencias que se instalaron junto con é
 sudo apt autoremove
 ```
 
+<a name="titulo3" />
 
+## Instalación de zsh y oh-my-zsh
+
+Instalamos **zsh** con el comando
+```shell
+sudo apt-get install zsh
+```
+
+Para instalar **oh-my-zsh** vamos a la [documentación](https://github.com/robbyrussell/oh-my-zsh) y usamos este comando que indica una instalación manual.
+
+![oh-my-zsh](https://documentacionspark.s3-sa-east-1.amazonaws.com/oh-my-zsh.png)
+
+Nos preguntará si deseamos cambiar el shell por defecto a zsh y le diremos que sí.
+
+Ahora para hacer que **zsh** sea el shell por defecto del sistema usaremos el comando
+
+```shell
+chsh -s /usr/bin/zsh
+ ```
+
+Para que este cambio sea efectivo debemos reiniciar el servidor, pero si deseamos usar zsh sin reiniciarlo simplemente podemos entrar usando el comando
+
+```shell
+zsh
+```
+
+Si deseamos volver al shell que teníamos por defecto antes de instalar zsh podemos hacerlo usando el comando
+
+```shell
+chsh -s /bin/bash
+```
+
+Y de nuevo, para que sea efectivo este cambio debemos reiniciar el servidor.
+
+---
 [Contenido general](../README.md)
