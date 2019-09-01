@@ -1,5 +1,3 @@
-[TOC]
-
 # Configuración inicial del entorno de trabajo
 
 ## Tabla de contenidos
@@ -34,3 +32,12 @@ Eso desinstalará Hyper pero algunas dependencias que se instalaron junto con é
 ```shell
 sudo apt autoremove
 ```
+
+```seq
+Andrew->China: Says Hello 
+Note right of China: China thinks\nabout it 
+China-->Andrew: How are you? 
+Andrew->>China: I am good thanks!
+```
+
+<div style="background-color: blue; height: 300px; width: 300px;"></div>
