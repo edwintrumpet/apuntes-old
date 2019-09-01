@@ -28,7 +28,11 @@ Para desinstalar Hyper usamos el comando
 ```shell
 sudo apt-get --purge remove hyper
 ```
-Eso desinstalará Hyper pero algunas dependencias que se instalaron junto con él seguirán instaladas, para desinstalar esas dependencias que ya no se están usando usamos el comando.
+>Eso desinstalará Hyper pero algunas dependencias que se instalaron junto con él seguirán instaladas, para desinstalar esas dependencias que ya no se están usando usamos el comando.
+
+Este es otro párrafo, vamos a ver cómo se ven estas cosas sin la identación.
+
+Y el segundo párrafo sería este, tengo que escibir más para que se vea algo diferente. Pero se me agotan las ideas y sólo tengo material para perder el tiempo escribiendo en MyEF.
 ```shell
 sudo apt autoremove
 ```
