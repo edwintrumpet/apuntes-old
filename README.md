@@ -3,4 +3,4 @@
 Apuntes de estudio sobre desarrollo web
 
 - Escuela de JavaScript
-    - [Prework](../master/prework.md)
+    - [Prework](../master/escuela-de-javascript/prework.md)
