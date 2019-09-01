@@ -20,6 +20,7 @@ sudo apt -f install
 ```
 - Con eso ya queda completamente instalada la aplicación y lista para usar.
 
+
 <a name="titulo2" />
 
 ## Desinstalación de Hyper en Ubuntu 18.04
@@ -28,13 +29,10 @@ Para desinstalar Hyper usamos el comando
 ```shell
 sudo apt-get --purge remove hyper
 ```
->Eso desinstalará Hyper pero algunas dependencias que se instalaron junto con él seguirán instaladas, para desinstalar esas dependencias que ya no se están usando usamos el comando.
-
-Este es otro párrafo, vamos a ver cómo se ven estas cosas sin la identación.
-
-Y el segundo párrafo sería este, tengo que escibir más para que se vea algo diferente. Pero se me agotan las ideas y sólo tengo material para perder el tiempo escribiendo en MyEF.
+Eso desinstalará Hyper pero algunas dependencias que se instalaron junto con él seguirán instaladas, para desinstalar esas dependencias que ya no se están usando usamos el comando.
 ```shell
 sudo apt autoremove
 ```
+
 
 [Contenido general](../README.md)
