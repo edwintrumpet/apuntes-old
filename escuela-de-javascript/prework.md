@@ -45,7 +45,7 @@ sudo apt-get install zsh
 
 Para instalar **oh-my-zsh** vamos a la [documentación](https://github.com/robbyrussell/oh-my-zsh) y usamos este comando que indica una instalación manual.
 
-![oh-my-zsh](https://documentacionspark.s3-sa-east-1.amazonaws.com/oh-my-zsh.png)
+>![oh-my-zsh](https://documentacionspark.s3-sa-east-1.amazonaws.com/oh-my-zsh.png)
 
 Nos preguntará si deseamos cambiar el shell por defecto a zsh y le diremos que sí.
 
