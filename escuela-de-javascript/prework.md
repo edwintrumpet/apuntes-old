@@ -32,3 +32,5 @@ Eso desinstalará Hyper pero algunas dependencias que se instalaron junto con é
 ```shell
 sudo apt autoremove
 ```
+
+[Contenido general](../README.md)
