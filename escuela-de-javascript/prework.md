@@ -1,6 +1,6 @@
 # Configuración inicial del entorno de trabajo
 
-## Tabla de contenidos
+## Índice
 
 - [Instalación de  Hyper en Ubuntu 18.04](#titulo1)
 - [Desinstalación de Hyper en Ubuntu 18.04](#titulo2)
@@ -113,4 +113,4 @@ plugins=(git zsh-autosuggestions)
 Ahora reiniciamos la terminal y deberá autocompletarnos la escritura de acuerdo al historial.
 
 ---
-[Contenido general](../README.md)
+[Otros contenidos](../README.md)
