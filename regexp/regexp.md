@@ -34,7 +34,7 @@ Se pueden representar caracteres o conjuntos de caracteres por medio de expresio
 También pueden contener rangos de caracteres como por ejemplo:
 
 - `[0-6]` Coincide con los dígitos del 0 al 6.
-- `[a-d]` Coincide con las letra minúsculas desde la **_a_** hasta la **_d_** sin acentos.
+- `[a-d]` Coincide con las letras minúsculas desde la **_a_** hasta la **_d_** sin acentos.
 
 <a name="negacion" />
 
@@ -43,7 +43,7 @@ También pueden contener rangos de caracteres como por ejemplo:
 Cuando lo que deseamos especificar no es el carácter o conjunto de caracteres a representar sino todo lo contrario (los caracteres que no deseamos aceptar), entonces usamos el carácter `^` al comienzo de la clase así:
 
 - `[^dgy]` Coincide con cualquier carácter que no sea **_d_**, **_g_** o **_y_**.
-- `[0-9]` Coincide con cualquier carácter que no sea un dígito.
+- `[^0-9]` Coincide con cualquier carácter que no sea un dígito.
 
 <a name="clases-predefinidas" />
 
@@ -57,7 +57,7 @@ Existen algunas expresiones ya definidas que coinciden con un carácter o un gru
 - `\s` Espacios, tabulaciones y saltos de línea.
 - `\t` Tabulaciones.
 - `\n` Saltos de línea.
-- `W` = `[^a-zA-Z0-9_]` Cualquier carácter que no sea alfanumérico.
+- `\W` = `[^a-zA-Z0-9_]` Cualquier carácter que no sea alfanumérico.
 - `\D` = `[^0-9]` Cualquier carácter que no sea un dígito.
 - `\S` Cualquier carácter que no sea un espacio, una tabulación o un salto de línea.
 
@@ -69,13 +69,13 @@ Algunos caracteres como los corchetes que se usan para envolver los modelos son 
 
 Los carácteres especiales son: `.`, `\`, `/`, `^`, `[`, `]`, `(`, `)`, `-`, `+`, `*`, `?`, `{`, `}`, `$`, `|`, `<`, `>`.
 
-Por ejemplo si queremos incluir el carácter `\` y los dígitos en una clase lo usaríamos así `[0-9\\]`. Y si quisieramos incluir las letras mayúsculas y minúsculas sin acentos y los paréntesis usaríamos `[a-zA-Z\(\)]`
+Por ejemplo, si queremos incluir el carácter `\` y los dígitos en una clase lo usaríamos así `[0-9\\]`. Y si quisieramos incluir las letras mayúsculas y minúsculas sin acentos y los paréntesis usaríamos `[a-zA-Z\(\)]`.
 
 <a name="agrupacion" />
 
 ## Agrupación
 
-Los paréntesis "( )" sirven para agrupar secciones de nuestras expresiones regulares con el fin de definir ámbitos o precedencia de operadores y así eviter errores en la interpretación de la expresión y proporcionar información adicional a los lenguajes de programación en los que se utilizan.
+Los paréntesis "( )" sirven para agrupar secciones de nuestras expresiones regulares con el fin de definir ámbitos o precedencia de operadores y así evitar errores en la interpretación de la expresión y proporcionar información adicional a los lenguajes de programación en los que se utilizan.
 
 Por ejemplo, si defino una expresión regular que consta de dos partes, una son letras y otra son números para que coincida con un texto que tiene nombres y números de teléfonos separados por un espacio. Podría verse así la expresión
 
@@ -183,3 +183,6 @@ Entonces en el campo de reemplazar vamos a usar la expresión `Nombre: $1\nTelé
 Con eso obtenemos solamente la información que es útil y en el formato deseado.
 
 ![Resultado de la edición](https://documentacionspark.s3-sa-east-1.amazonaws.com/regexp/editado.png)
+
+---
+[Otros contenidos](../README.md)
