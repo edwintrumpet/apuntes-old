@@ -4,6 +4,8 @@
 
 - [Instalación de  Hyper en Ubuntu 18.04](#titulo1)
 - [Desinstalación de Hyper en Ubuntu 18.04](#titulo2)
+- [Instalación de zsh y oh-my-zsh](#titulo3)
+- [Instalar el plugin zsh Autosuggestions](#titulo4)
 
 <a name="titulo1" />
 
@@ -45,7 +47,7 @@ sudo apt-get install zsh
 
 Para instalar **oh-my-zsh** vamos a la [documentación](https://github.com/robbyrussell/oh-my-zsh) y usamos este comando que indica una instalación manual.
 
->![oh-my-zsh](https://documentacionspark.s3-sa-east-1.amazonaws.com/oh-my-zsh.png)
+>   ![oh-my-zsh](https://documentacionspark.s3-sa-east-1.amazonaws.com/oh-my-zsh.png)
 
 Nos preguntará si deseamos cambiar el shell por defecto a zsh y le diremos que sí.
 
@@ -68,6 +70,47 @@ chsh -s /bin/bash
 ```
 
 Y de nuevo, para que sea efectivo este cambio debemos reiniciar el servidor.
+
+<a name="titulo4" />
+
+## Instalar el plugin zsh Autosuggestions
+
+Buscamos en Google *zsh autosuggestions* y encontraremos en los primeros lugares de la búsqueda el repositorio de GitHub.
+
+En el README.md buscamos la sección de instalación y nos dirigimos al enlace que se indica ahí.
+
+>![instalación autosuggestions](https://documentacionspark.s3-sa-east-1.amazonaws.com/autosuggestions-install.png)
+
+En este archivo buscamos la sección Oh My Zsh y seguimos los pasos indicados en la siguiente imagen.
+
+>![instalación autosuggestions](https://documentacionspark.s3-sa-east-1.amazonaws.com/autosuggetions.png)
+
+Para esto nos en la consola nos desplazamos al directorio indicado usando el comando
+
+```shell
+cd ~/.oh-my-zsh/custom/plugins
+```
+
+Estando en el directorio indicado clonamos el repositorio con el comando
+
+```shell
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+```
+
+Ahora entramos al archivo `.zshrc` para editarlo usando el comando.
+
+```shell
+vim ~/.zshrc
+```
+
+Buscamos la línea `plugins` en donde puede aparecer git como plugin preinstalado, dentro de los paréntesis le agregamos `zsh-autosuggestions` separado por un espacio del plugin que ya esté instalado asi:
+
+```
+plugins=(git zsh-autosuggestions)
+```
+
+Ahora reiniciamos la terminal y deberá autocompletarnos la escritura de acuerdo al historial.
 
 ---
 [Contenido general](../README.md)
