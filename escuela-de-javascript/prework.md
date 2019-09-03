@@ -139,7 +139,7 @@ Ahora en la mísma barra de búsqueda escribimos **prettier eslint** y activamos
 
 ![Integración Prettier ESLint](https://documentacionspark.s3-sa-east-1.amazonaws.com/escuelajavascript/prework/prettiereslint.png)
 
-Ahora en la misma barra de búsqueda escribimos **eslint autosave** y activamos la opción de Auto fix on save de ESLint. Esto se hace para que cada que guardemos nuestros archivos se se formateen de acuerdo a las reglas de nuestro linter.
+Ahora en la misma barra de búsqueda escribimos **eslint autosave** y activamos la opción de Auto fix on save de ESLint. Esto se hace para que cada que guardemos nuestros archivos se formateen de acuerdo a las reglas de nuestro linter.
 
 ![EsLint autosave](https://documentacionspark.s3-sa-east-1.amazonaws.com/escuelajavascript/prework/autosave.png)
 
