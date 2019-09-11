@@ -1,5 +1,4 @@
 # Frontend developer
-**Profesora: Estefanny Aguilar**
 
 ## Referencias del lenguaje
 
@@ -34,7 +33,7 @@ En la web de la W3C podemos encontrar el [servicio de validación](https://valid
 - [**BEM**](http://getbem.com/introduction/) Block element modify
 - [**SMACSS**](http://smacss.com/) Scalable and modular architecture CSS
 - [**ITCSS**](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) The inverted triangle architecture
-- [Atomic design](http://bradfrost.com/blog/post/atomic-web-design/)
+- [**Atomic design**](http://bradfrost.com/blog/post/atomic-web-design/)
 
 ## Documentación
 
@@ -42,7 +41,7 @@ En la web de la W3C podemos encontrar el [servicio de validación](https://valid
 
 ## Recursos
 
-| Tema | Sitio |
+| Tema | Sitio web |
 |:--------:|:--------:|
 | emojis | [emoji keyboar](https://coolsymbol.com/emojis/emoji-for-copy-and-paste.html) |
 | Paletas y colores | [Colorhunt](https://colorhunt.co) |
