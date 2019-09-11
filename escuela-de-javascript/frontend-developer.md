@@ -36,3 +36,18 @@ En la web de la W3C podemos encontrar el [servicio de validación](https://valid
 - [**ITCSS**](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) The inverted triangle architecture
 - [Atomic design](http://bradfrost.com/blog/post/atomic-web-design/)
 
+## Documentación
+
+[storybooks](https://storybook.js.org)
+
+## Recursos
+
+| Tema | Sitio |
+|:--------:|:--------:|
+| emojis | [emoji keyboar](https://coolsymbol.com/emojis/emoji-for-copy-and-paste.html) |
+| Paletas y colores | [Colorhunt](https://colorhunt.co) |
+| Paletas y colores | [Picular](https://picular.co/Video) |
+| Paletas y colores | [Paleton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) |
+| Paletas y colores | [Coolors](https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e) |
+| Íconos | [iconos8](https://iconos8.es) |
+| Imágenes | [Pexels](https://www.pexels.com) |

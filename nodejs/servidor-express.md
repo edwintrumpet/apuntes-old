@@ -1,5 +1,13 @@
 # Servidor Express (API rest)
 
+## Índice
+
+- [Configuración inicial](#configuracion-inicial)
+- [Deploy en una instancia Lightsail de AWS](#deploy)
+- [Apuntar un Dominio de Namecheap a esta instancia](#apuntar-dominio)
+
+<a name="configuracion-inicial" />
+
 ## Configuración inicial
 
 Inicio un proyecto de JavaScript usando el comando
@@ -191,6 +199,8 @@ app.listen(SERVER_PORT, () => {
 
 Con esto tendríamos una API rest sencilla a la que le podemos agregar más configuraciones y rutas.
 
+<a name="deploy" />
+
 ## Deploy en una instancia Lightsail de AWS
 
 En este momento si usamos el comando `npm start` se levanta el servidor pero si cerramos la consola el servidor se cae, ese comportamiento no podemos aceptarlo en el deploy porque necesitamos la aplicación funcionando permanentemente.
@@ -374,6 +384,8 @@ ProxyPassReverse / http://127.0.0.1:3000/
 ```
 
 Ahora podemos ir al navegador y con la IP pública de nuestro servidor acceder a la API rest
+
+<a name="apuntar-dominio" />
 
 ## Apuntar un Dominio de Namecheap a esta instancia
 
